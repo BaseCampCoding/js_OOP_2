@@ -1,0 +1,11 @@
+# Module 1 Javascript Assignment
+
+There is a test suite to guide you and help you check yourself. To run the test suite, just view `SpecRunner.html` in your browser. I suggest using live server so that your tests rerun when you save you file.
+
+**Important:** The test cases specify the name of the required methods, arguments, etc. So **read each test case carefully.** Test cases are located in the spec folder.
+
+# Exercises
+All functions should be defined in main.js located in the src folder. **This is the only file you should edit.**
+
+Your task is to write a JavaScript program that creates a class called 'Vehicle' with properties for make, model, color and year. Include a method call vehicleDetails to display vehicle details. Create a subclass called 'Car' that inherits from the 'Vehicle' class and includes an additional property for the number of doors and the cars condition which is whether the car is used or new. Override the vehicleDetails method to include the number of doors, mileage and used value.
+- Any vehicle under 10,000 miles is considered new.
